@@ -2,17 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	int opponent = 72;
-	int guess = 0;
 
-	do {
-		printf("Guess what between 1 to 100 ?\n");
-		scanf("%d", &guess);
-		if (guess == opponent)
-			printf("Your guess %d is Correct!\n", guess);
-		else
-			printf("Your guess %d is Incorrect!\n", guess);
-	} while (guess != opponent);
 }
 
 //--------------------------------------------------------------
