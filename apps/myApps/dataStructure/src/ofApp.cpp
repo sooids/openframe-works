@@ -2,17 +2,17 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-	int opponent = 72;
-	int guess = 0;
+	ofSetWindowTitle("Sample Program #1");
 
-	do {
-		printf("Guess what between 1 to 100 ?\n");
-		scanf("%d", &guess);
-		if (guess == opponent)
-			printf("Your guess %d is Correct!\n", guess);
-		else
-			printf("Your guess %d is Incorrect!\n", guess);
-	} while (guess != opponent);
+	ofSetWindowShape(1024, 768);
+
+	ofSetFrameRate(60);
+
+	ofBackground(ofColor::white);
+
+	ofSetColor(ofColor::black);
+
+	ofSetLineWidth(1.0);
 }
 
 //--------------------------------------------------------------
@@ -22,7 +22,13 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+	ofDrawLine(0, 0, 700, 700);
 
+	ofDrawCircle(100, 100, 100);
+
+	ofDrawRectangle(500, 100, 200, 200);
+
+	ofDrawTriangle(300, 400, 200, 600, 50, 600);
 }
 
 //--------------------------------------------------------------
