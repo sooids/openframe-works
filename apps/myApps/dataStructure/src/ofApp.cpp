@@ -1,18 +1,27 @@
 #include "ofApp.h"
+#include "breakOut.h"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+	ofSetWindowTitle("2D Brick Break Out Game 1");
+	ofSetWindowShape(1024, 768);
+	ofSetFrameRate(40);
+	ofBackground(ofColor::white);
+	ofSetColor(ofColor::black);
+	ofSetLineWidth(1.0);
+	ofFill();
 
+	initGame();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+	moveBall();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	drawBall();
 }
 
 //--------------------------------------------------------------

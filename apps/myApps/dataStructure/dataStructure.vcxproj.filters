@@ -7,7 +7,7 @@
     <ClCompile Include="src\main.cpp">
       <Filter>src</Filter>
     </ClCompile>
-    <ClCompile Include="breakOut.c">
+    <ClCompile Include="src\breakOut.c">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,7 +23,7 @@
     <ClInclude Include="src\ofApp.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="breakOut.h">
+    <ClInclude Include="src\breakOut.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
